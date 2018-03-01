@@ -1,0 +1,253 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.navbar-inverse, .navbar-inverse .navbar-nav>.active>a{
+  background-color: #E10024 ;
+}
+
+.navbar-inverse .navbar-brand{
+    color: white;
+}
+
+.separador{
+    display: block;
+    cursor: default;
+    margin: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    color: white !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.hide{
+    display: none;
+}
+
+nav .col-md-4{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background-color: #B4001D;
+
+}
+
+nav .col-md-4 > span:first-child{
+    font-size: 20px;
+}
+
+nav .col-md-4 > span:nth-child(2){
+    padding-left: 1em;
+    position: relative;
+    top: -4px;
+}
+
+.navbar-header{
+    margin-left: 15px;
+}
+
+#displayImagens{
+    background-color: #ECECEC;
+    height: 50em;
+    padding-top: 2em;
+
+}
+
+.spanEspelho{
+    position: relative;
+    top: 56px;
+
+}
+
+.displayEspelho{
+    width: 127px;
+}
+
+.spanMacaneta{
+    position: relative;
+    top: -380px;
+    left: 135px;
+}
+
+.displayMacaneta{
+    width: 313px;
+}
+
+
+.displayMacaneta901{
+    width: 313px;
+}
+
+.displayMacanetaMACANETA20MA{
+    width: 382px;
+}
+
+.displayMacanetaNJ{
+    width: 382px;
+}
+
+.displayMacanetaNS{
+    width: 382px;
+}
+
+.spanRoseta{
+    position: relative;
+    top: 173px;
+}
+
+.displayRoseta{
+    width: 154px;
+}
+
+#detalhe{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #E0E0E0;
+}
+
+footer .row{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+footer img {
+    width: 37.5px;
+    height: 37.5px;
+    margin-left: 1em;
+}
+
+a:hover, a:focus{
+    text-decoration: none;
+}
+
+footer a{
+    color: #333;
+}
+
+footer .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#selecao{
+    background-color: #F3F3F3;
+}
+
+#selecao > div{
+    padding-top: 2em;
+}
+
+.nav-tabs{
+    border-bottom: 3px solid #E10024;
+
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    background: linear-gradient(#E10125,#B7011E);
+    color: white;
+}
+
+#selecao li{
+    width: 25%;
+}
+
+#macanetas, #espelhos, #rosetas, #acabamento{
+    overflow-y: auto;
+    height: auto;
+}
+
+#selecao .tab-pane img{
+    padding: 2em;
+}
+
+#macanetas img{
+    width: 173px;
+    padding: 3em !important;
+}
+
+#espelhos img {
+    width: 86px;
+}
+
+#rosetas img{
+    width: 87px;
+}
+
+
+.alignMacaneta901Espelho{
+    top: -381px;
+}
+
+.alignMacanetaMACANETA20MAEspelho{
+    top: -352px;
+    left: 172px;
+}
+
+.alignMacanetaNJEspelho{
+    top: -362px;
+    left: 169px;
+}
+
+.alignMacanetaNSEspelho{
+    top: -400px;
+    left: 160px;
+}
+
+.alignMacaneta901Roseta{
+    top: 30px;
+}
+
+.alignMacanetaMACANETA20MARoseta{
+    top: 61px;
+    left: 174px;
+}
+
+.alignMacanetaNJRoseta{
+    top: 58px;
+    left: 174px;
+}
+
+.alignMacanetaNSRoseta{
+    top: 10px;
+    left: 167px;
+}
+
+
+
+
+@media screen  and (max-width: 323px){
+    .displayEspelho{
+        margin-left: 89.50px;
+    }
+
+    .displayRoseta{
+        margin-left: 89.50px;
+    }
+}
+
+@media screen and (max-width: 1418px){
+    #selecao li span{
+        margin-left: -11%;
+    }
+}
+
+@media screen and (max-width: 1417px) and (min-width: 1031px){
+    #selecao li span{
+        margin-left: -29%;
+    }
+}
+
+@media screen and (max-width: 1030px) and (min-width: 992px){
+    #selecao li span{
+        margin-left: -36%;
+    }
+}
+
+
+
